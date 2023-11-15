@@ -1,0 +1,113 @@
+/* reset */
+body {
+    background-color: #e7e7e9;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.desk {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+/* header */
+.header {
+    background: linear-gradient(#353b46, black);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header h1 {
+    color: white;
+    transition: 0.3s;
+}
+
+.header h1:hover {
+    color: #586b8d;
+}
+
+.header nav a {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    transition: 0.3s;
+}
+
+.header a:hover {
+    color: #586b8d;
+}
+
+/* section 1 */
+.formBox {
+    background-color: #e0e0e0;
+    box-shadow: 10px 10px 10px;
+    margin: 100px 0;
+    padding: 20px 10px;
+}
+
+.formBox h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.form .inner {
+    padding: 0 100px;
+}
+
+.form button {
+    margin-top: 20px;
+    width: 15%;
+}
+
+#select {
+    color: gray;
+}
+
+.messBox {
+    margin-bottom: 20px;
+}
+
+/* footer */
+.footer {
+    position: relative;
+    background: linear-gradient(#353b46, black);
+    padding-top: 10px;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer li {
+    color: white;
+}
+
+.footer a {
+    color: white;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #586b8d;
+}
+
+@media screen and (min-width: 480px) and (max-width: 629px) {
+
+.mobile .form button {
+    width: 26%;
+}
+
+}
